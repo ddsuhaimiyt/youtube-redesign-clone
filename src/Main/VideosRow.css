@@ -1,0 +1,48 @@
+.videos-row-container {
+    margin-bottom: 20px;
+}
+
+.videos-row-container .row .videos-label-container {
+    padding: 10px 20px 10px 0;
+}
+.videos-row-container .row .videos-row-item{
+    display: flex;
+}
+
+.videos-row-container .row .videos-row-label {
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.videos-row-container .row .videos-row-label-channel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.videos-row-container .row .videos-row-label-channel .left {
+    display: flex;
+    align-items: center;
+}
+.videos-row-container .row .videos-row-label-channel .left > * {
+    margin-right: 10px;
+}
+
+.videos-row-container .row .videos-row-label-channel .left .small-text {
+    font-size: 12px;
+    color: gray;
+}
+
+.videos-row-container .row .videos-row-label-channel .left .avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.videos-row-container .row .videos-row-label-channel .right .subscribe-btn {
+    padding: 10px 15px;
+    background: crimson;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+}

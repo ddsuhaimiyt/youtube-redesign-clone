@@ -1,0 +1,87 @@
+.header {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e4e4e4;
+  }
+  
+  .header-left {
+    width: 300px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-left i {
+    width: 30px;
+  }
+  
+  .header-left .logo {
+    width: 100px;
+  }
+  
+  .header-center {
+    flex-grow: 1;
+  }
+  
+  .header-center .search {
+    position: relative;
+  
+    width: 40%;
+  }
+  
+  .header-center .search-btn {
+    border: none;
+    outline: none;
+    background: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+  }
+  
+  .header-center .search-btn:hover {
+    color: crimson;
+    cursor: pointer;
+  }
+  
+  .header-center .search-box {
+    padding: 10px;
+    background: #e4e4e4;
+    border: none;
+    border-radius: 5px;
+    width: 95%;
+  }
+  
+  .header-right {
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
+    width: 300px;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-right .user-info > * {
+    margin-left: 20px;
+  }
+  
+  .header-right .user-info {
+    display: flex;
+    align-items: center;
+  }
+  .header-right .avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+  }
+  .header-right .upload-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: crimson;
+    color: white;
+  }
+  

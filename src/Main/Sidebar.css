@@ -1,0 +1,23 @@
+.sidebar {
+    width: 300px;
+    flex-shrink: 0;
+    padding-top: 10px;
+}
+
+.sidebar .menu-group {
+    margin-bottom: 30px;
+}
+
+.sidebar .menu-group-label {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.sidebar .menu-group .menu-item {
+    padding:  10px 0;
+}
+
+.sidebar .menu-group .menu-item i {
+    width: 30px;
+}

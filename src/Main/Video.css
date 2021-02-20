@@ -1,0 +1,50 @@
+.video {
+    padding: 5px 20px 5px 0;
+  }
+  .video .thumbnail {
+    position: relative;
+  }
+  .video .thumbnail img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px;
+  }
+  .video .thumbnail .length {
+    position: absolute;
+    background: black;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    bottom: 10px;
+    right: 10px;
+  }
+  .video .title {
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  
+  .video .channel {
+    font-size: 14px;
+    color: #adadad;
+    margin-bottom: 5px;
+  }
+  
+  .video .channel a {
+    text-decoration: none;
+  }
+  
+  .video .video-info {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #adadad;
+  }
+  
+  .video .video-info .point-divider {
+    width: 3px;
+    height: 3px;
+    background: black;
+    margin: 0px 5px;
+    border-radius: 50%;
+  }
+  
